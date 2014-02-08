@@ -2,11 +2,11 @@
 counter=0
 echo -n "How many minutes would you like the timer to run? "
 read limit
-echo -n "Summary?"
+echo -n "Summary? "
 read summary
-echo -n "Start message?"
+echo -n "Start message? "
 read startmessage
-echo -n "Done message?"
+echo -n "Done message? "
 read endmessage
 notify-send -u critical -i appointment -t 600 "$summary" "$startmessage"
 echo
